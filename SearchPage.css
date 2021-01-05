@@ -1,0 +1,38 @@
+.searchPage__info {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.searchPage__info>h2 {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 27px;
+}
+
+.buton {
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    padding: 3px 9px !important;
+    margin: 7px !important;
+    color: white !important;
+    background-color: #ff7779 !important;
+}
+
+.buton:hover {
+    color: #ff7779 !important;
+    background-color: white !important;
+    border-color: rgb(32, 32, 32) !important;
+}
+
+.searchPage__info>button {
+    text-transform: inherit;
+    border-radius: 30px;
+    padding: 3px 9px;
+    margin: 7px;
+}
+
+.searchPage__info>button:hover {
+    border-color: rgb(31, 31, 31);
+    color: #ff7779;
+    background-color: white;
+}

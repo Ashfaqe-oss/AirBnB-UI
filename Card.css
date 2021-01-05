@@ -1,0 +1,24 @@
+.card {
+    padding: 10px;
+    transition: transform 0.2s ease-in;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.card__img {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 272px;
+    min-width: 233px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.card__info>h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
